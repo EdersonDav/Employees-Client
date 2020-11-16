@@ -2,12 +2,12 @@ import React from "react";
 
 import { Container } from './styled'
 
-const Dashboard: React.FC = () => {
+const Search: React.FC = () => {
   return (
     <Container>
-      <h1>Home</h1>
+      <h1>Pesquisar</h1>
     </Container>
   )
 };
 
-export default Dashboard;
+export default Search;
