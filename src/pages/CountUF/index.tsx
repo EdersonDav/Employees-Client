@@ -1,15 +1,34 @@
 import React from "react";
 
 import Menu from '../../components/Menu'
-import { Container } from './styled'
+import { Container, Content } from './styled'
 
-const CountUF: React.FC = () => {
+const Dashboard: React.FC = () => {
   return (
     <Container>
       <Menu />
-      <h1>Contagem por UF</h1>
+      <Content>
+        <h1>Funcionários por estado</h1>
+        <table>
+          <tr>
+            <th>Estado</th>
+            <th>UF</th>
+            <th>Quantidad</th>
+          </tr>
+          <tr>
+            <td>São Paulo</td>
+            <td>SP</td>
+            <td>50</td>
+          </tr>
+          <tr>
+            <td>Rio da Janeiro</td>
+            <td>RJ</td>
+            <td>40</td>
+          </tr>
+        </table>
+      </Content>
     </Container>
   )
 };
 
-export default CountUF;
+export default Dashboard;

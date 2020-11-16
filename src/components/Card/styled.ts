@@ -25,6 +25,7 @@ export const Content = styled.div`
     font-size: 19px;
     border-collapse: separate; 
     border-spacing: 0 1.2em;
+    
     span{
       font-weight:500;
     }
