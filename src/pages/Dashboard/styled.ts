@@ -16,7 +16,7 @@ export const Content = styled.div`
   }
   strong{
     position: absolute;
-    right: 50px;
+    right: 5%;
     top: 20px
   }
 `;
