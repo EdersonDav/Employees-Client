@@ -10,12 +10,15 @@ export default createGlobalStyle`
 
   body{
     background: #EBEFF5;
-    color:#26232E;
+    color:#36333E;
     -webkit-font-smoothing: antialiased;
+    > div{
+      margin-top: 30px
+    }
   }
 
   body, input, button{
-    font-family: "Roboto Slab", serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
   }
   h1, h2, h3, h4, h5, h6{
