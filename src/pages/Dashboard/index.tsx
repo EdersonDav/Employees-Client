@@ -10,6 +10,7 @@ const Dashboard: React.FC = () => {
       <Menu />
       <Content>
         <h1>Home</h1>
+        <strong>Quantidade: </strong>
         <div>
           <Card />
         </div>

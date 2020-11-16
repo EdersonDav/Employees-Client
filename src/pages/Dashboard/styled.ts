@@ -9,8 +9,14 @@ export const Container = styled.div`
 export const Content = styled.div`
   width: 100%;
   padding-left: 20px;
+  position: relative;
   h1{
     margin-bottom: 55px;
     margin-top: 8px;
+  }
+  strong{
+    position: absolute;
+    right: 50px;
+    top: 20px
   }
 `;
