@@ -12,7 +12,7 @@ const Routes: React.FC = () => {
       <Route path="/" exact component={Dashboard} />
       <Route path="/search" component={Search} />
       <Route path="/count" component={CountUF} />
-      <Route path="/create" component={CreateOrUpdate} />
+      <Route path="/create/:cpf" component={CreateOrUpdate} />
 
     </Switch>
   );

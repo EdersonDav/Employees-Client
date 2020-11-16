@@ -19,25 +19,22 @@ export const Form = styled.form`
   margin: auto;
   display: flex;
   background-color: #fff;
-  display: flex;
   flex-direction: column;
   position: relative;
   border-radius: 20px;
-  height: 200px;
-
-  table{
-    padding: 10px 30px;
-    font-size: 19px;
-    border-collapse: separate; 
-    border-spacing: 0 2em;
+  height: 350px;
+  width: 80%;
+  div{
+    margin:auto;
+    margin-top:20px;
     label{
-      font-weight:500;
-      margin: 10px
+    font-weight:500;
+    margin: 10px
     }
     input{
       border: none;
       border-bottom: 1px solid #000;
-      width: 150px
+      width: 200px
     }
     select{
       border-radius: 5px;
@@ -45,7 +42,8 @@ export const Form = styled.form`
       padding: 5px
     }
   }
-
+  
+  
 `
 
 export const ButtonIcons = styled.button`
@@ -59,9 +57,27 @@ export const ButtonIcons = styled.button`
 export const ButtonIconsDiv = styled.div`
   display: flex;
   position: absolute;
-  right: 100px;
-  bottom: 20px;
+  right: 20%;
+  bottom: 0;
   @media (max-width:1000px){
     right: 5px;
   }
+`
+
+export const Message = styled.div`
+  position: absolute;
+  top:50px;
+  right: 5%;
+  background-color: #0008;
+  padding:10px;
+  border-radius: 5px;
+  @keyframes movement {
+    0% { right: -120%; opacity: 0 }
+    100% { right: 5%; opacity: 1 }
+  }
+  > span{
+    font-weight: bold;
+    color: #fff;
+  }
+  animation: movement 1s linear;
 `

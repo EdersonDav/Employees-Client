@@ -17,7 +17,7 @@ const Menu: React.FC = () => {
       </Button>
 
       <Button>
-        <Link to="/create"><FiPlus size={25} /> <span>Novo</span> </Link>
+        <Link to="/create/00"><FiPlus size={25} /> <span>Novo</span> </Link>
       </Button>
 
       <Button>

@@ -51,7 +51,7 @@ const Card: React.FC<Props> = (props) => {
               </tr>
             </table>
             <ButtonIconsDiv>
-              <ButtonIcons> <Link to="/create"><FiEdit size={22} color="#3030c5" /></Link> </ButtonIcons>
+              <ButtonIcons> <Link to={`/create/${emp.cpf}`}><FiEdit size={22} color="#3030c5" /></Link> </ButtonIcons>
               <ButtonIcons onClick={() => deleteEployee(emp.cpf)}> <FiTrash size={22} color="#c53030" /></ButtonIcons>
             </ButtonIconsDiv>
           </Content>
