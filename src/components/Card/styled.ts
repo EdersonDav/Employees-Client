@@ -2,9 +2,6 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   overflow-y: scroll;
-  &::-webkit-scrollbar {
-    width: 2px;
-  }
   height: 75vh;
 `
 export const Content = styled.div`
@@ -45,4 +42,22 @@ export const ButtonIconsDiv = styled.div`
   position: absolute;
   right: 20px;
   bottom: 20px;
+`
+
+export const Message = styled.div`
+  position: absolute;
+  top:50px;
+  right: 5%;
+  background-color: #0008;
+  padding:10px;
+  border-radius: 5px;
+  @keyframes movement {
+    0% { right: -120%; opacity: 0 }
+    100% { right: 5%; opacity: 1 }
+  }
+  > span{
+    font-weight: bold;
+    color: #fff;
+  }
+  animation: movement 1s linear;
 `
