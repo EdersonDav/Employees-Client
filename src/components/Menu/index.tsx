@@ -13,19 +13,19 @@ const Menu: React.FC = () => {
         <img src={logo} alt="Allugator" />
       </div>
       <Button>
-        <Link to="/"><FiHome size={25} color="#26232E" /> Início</Link>
+        <Link to="/"><FiHome size={25} /> <span>Início</span></Link>
       </Button>
 
       <Button>
-        <Link to="/create"><FiPlus size={25} color="#26232E" /> Novo</Link>
+        <Link to="/create"><FiPlus size={25} /> <span>Novo</span> </Link>
       </Button>
 
       <Button>
-        <Link to="/search"> <FiSearch size={25} color="#26232E" />  Pesquisar</Link>
+        <Link to="/search"> <FiSearch size={25} /> <span>Pesquisar</span> </Link>
       </Button>
 
       <Button >
-        <Link to="/count"> <FiMap size={25} color="#26232E" /> Contagem</Link>
+        <Link to="/count"> <FiMap size={25} /> <span>Contagem</span> </Link>
       </Button>
 
     </Container>

@@ -1,13 +1,19 @@
 import React from "react";
 
 import Menu from '../../components/Menu'
-import { Container } from './styled'
+import Card from '../../components/Card'
+import { Container, Content } from './styled'
 
 const Dashboard: React.FC = () => {
   return (
     <Container>
       <Menu />
-      <h1>Home</h1>
+      <Content>
+        <h1>Home</h1>
+        <div>
+          <Card />
+        </div>
+      </Content>
     </Container>
   )
 };

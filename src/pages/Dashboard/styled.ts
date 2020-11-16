@@ -5,3 +5,12 @@ export const Container = styled.div`
   margin: auto;
   display: flex;
 `
+
+export const Content = styled.div`
+  width: 100%;
+  padding-left: 20px;
+  h1{
+    margin-bottom: 55px;
+    margin-top: 8px;
+  }
+`;
