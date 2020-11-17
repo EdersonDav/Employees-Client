@@ -27,7 +27,7 @@
 
 # 👷🏿 Instalação
 
-**Você precisa instalar o [Node.js](https://nodejs.org/en/download/) e o [Yarn](https://yarnpkg.com/)primeiramente**
+**Você precisa instalar o [Node.js](https://nodejs.org/en/download/) e o [Yarn](https://yarnpkg.com/) primeiramente**
 
 **Para clonar o projeto via HTTPS, execute este comando:**
 
