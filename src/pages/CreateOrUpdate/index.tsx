@@ -40,7 +40,8 @@ const CreateOrUpdate: React.FC = () => {
       })
     } else {
       const now = new Date()
-      const dataCadastro = `${now.getDay() < 10 ? "0" + now.getDay() : now.getDay()}/${now.getMonth() < 10 ? "0" + now.getMonth() : now.getMonth()}/${now.getFullYear()}`
+
+      const dataCadastro = `${now.getDate() < 10 ? "0" + now.getDate() : now.getDate()}/${(now.getMonth() + 1) < 10 ? "0" + (now.getMonth() + 1) : (now.getMonth() + 1)}/${now.getFullYear()}`
       setEmployee({ ...employee, dataCadastro });
     }
   }, [params.cpf])
@@ -156,7 +157,7 @@ const CreateOrUpdate: React.FC = () => {
           <div>
             <label>Status:</label>
             <select name="status" id="status" onChange={handleSelectChange}>
-              <option value={employee.status}>{employee.status != "" ? employee.status : "Selecione o status"}</option>
+              <option value={employee.status}>{employee.status !== "" ? employee.status : "Selecione o status"}</option>
               <option value="ATIVO">ATIVO</option>
               <option value="BLOQUEADO">BLOQUEADO</option>
             </select>

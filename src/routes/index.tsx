@@ -13,7 +13,6 @@ const Routes: React.FC = () => {
       <Route path="/search" component={Search} />
       <Route path="/count" component={CountUF} />
       <Route path="/create/:cpf" component={CreateOrUpdate} />
-
     </Switch>
   );
 };

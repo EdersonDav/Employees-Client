@@ -56,3 +56,20 @@ export const ButtonIcons = styled.button`
   align-items: center;
   margin: 10px;
 `
+export const Message = styled.div`
+  position: absolute;
+  top:50px;
+  right: 5%;
+  background-color: #0008;
+  padding:10px;
+  border-radius: 5px;
+  @keyframes movement {
+    0% { right: -120%; opacity: 0 }
+    100% { right: 5%; opacity: 1 }
+  }
+  > span{
+    font-weight: bold;
+    color: #fff;
+  }
+  animation: movement 1s linear;
+`
