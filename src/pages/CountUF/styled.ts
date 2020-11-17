@@ -4,6 +4,7 @@ export const Container = styled.div`
   width: 95%;
   margin: auto;
   display: flex;
+  
 `
 
 export const Content = styled.div`
@@ -23,6 +24,5 @@ export const Content = styled.div`
     tr{
       text-align: center;
     }
-    
   }
 `;
