@@ -1,46 +1,70 @@
-# Getting Started with Create React App
+# Fron-End Projeto CRUD Funcionários Allugator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+>Crie, liste, atualize e exclua funcionários de sua base de dados
 
-## Available Scripts
+[![Author](https://img.shields.io/badge/author-EdersonDav-000000?style=flat-square)](https://github.com/EdersonDav)
 
-In the project directory, you can run:
+# 📌 Índice
 
-### `yarn start`
+- [Recursos](#-recursos)
+- [Instalação](#-instalação)
+- [Começando](#-começando)
+- [Tecnologias Usadas](#-tecnologias-usadas)
+- [Créditos](#-créditos)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# 🚀 Recursos
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Leitura e atualização de txt que contém a base de dados.
+- Retorna funcionários por Nome.
+- Retorna funcionários por CPF.
+- Retorna funcionários por Cargo.
+- Retorna funcionários por Data de Cadastros.
+- Retorna quantidade de funcionários agrupados por UF de Nascimento.
+- Retorna funcionários por faixa salarial.
+- Retorna funcionários por status.
+- Criar ou atualizar funcionários, caso já exista.
+- Excluir funcionário pelo número do CPF.
 
-### `yarn test`
+# 👷🏿 Instalação
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Você precisa instalar o [Node.js](https://nodejs.org/en/download/) e o [Yarn](https://yarnpkg.com/)primeiramente**
 
-### `yarn build`
+**Para clonar o projeto via HTTPS, execute este comando:**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`git clone https://github.com/EdersonDav/Allugator-FrontEnd.git`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Ou SSH com o comando:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+`git clone git@github.com:EdersonDav/Allugator-FrontEnd.git`
 
-### `yarn eject`
+### Instalação de dependências
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**No terminal dentro da pasta raiz do projeto, execute o comando**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+`yarn`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# 🏃🏿 Começando
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Iniciar servidor
 
-## Learn More
+**Certifique-se que a API do repositório do [Back-End](https://github.com/EdersonDav/Allugator-BackEnd) esteja rodando em sua máquina**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Após a instalação das dependências, na pasta raiz do projeto execute o comando:**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+`yarn start`
+
+### Será aberta em localhost a aplicação na porta 3000
+
+# 👨🏿‍💻 Tecnologias Usadas
+* [TypeScript](https://www.typescriptlang.org/)
+* [ReactJs](https://pt-br.reactjs.org/)
+* [StyledComponents](https://styled-components.com/)
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+
+# ☕ Créditos
+
+## <i>Ederson Davi</i>
+
+[Github](https://github.com/EdersonDav) 👨🏿‍🎓🚀
+
+[LinkedIn](https://www.linkedin.com/in/silvaedersonqueiroz) 👨🏿‍👔
