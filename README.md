@@ -1,4 +1,4 @@
-# Fron-End Projeto CRUD Funcionários Allugator
+# Fron-End Funcionários
 
 >Crie, liste, atualize e exclua funcionários de sua base de dados
 
@@ -31,11 +31,11 @@
 
 **Para clonar o projeto via HTTPS, execute este comando:**
 
-`git clone https://github.com/EdersonDav/Allugator-FrontEnd.git`
+`git clone https://github.com/EdersonDav/Funcionarios-FrontEnd.git`
 
 **Ou SSH com o comando:**
 
-`git clone git@github.com:EdersonDav/Allugator-FrontEnd.git`
+`git clone git@github.com:EdersonDav/Funcionarios-FrontEnd.git`
 
 ### Instalação de dependências
 
@@ -47,7 +47,7 @@
 
 ### Iniciar servidor
 
-**Certifique-se que a API do repositório do [Back-End](https://github.com/EdersonDav/Allugator-BackEnd) esteja rodando em sua máquina**
+**Certifique-se que a API do repositório do [Back-End](https://github.com/EdersonDav/Funcionarios-Server) esteja rodando em sua máquina**
 
 **Após a instalação das dependências, na pasta raiz do projeto execute o comando:**
 
