@@ -44,7 +44,7 @@ const CreateOrUpdate: React.FC = () => {
       const dataCadastro = `${now.getDate() < 10 ? "0" + now.getDate() : now.getDate()}/${(now.getMonth() + 1) < 10 ? "0" + (now.getMonth() + 1) : (now.getMonth() + 1)}/${now.getFullYear()}`
       setEmployee({ ...employee, dataCadastro });
     }
-  }, [params.cpf])
+  }, [params.cpf, employee])
 
   const handleSubmit = (event: FormEvent) => {
     event.preventDefault();

@@ -59,7 +59,7 @@ const Search: React.FC = () => {
   }
 
   const searchEmployeer = () => {
-    if (urlParam == "salary") {
+    if (urlParam === "salary") {
       if (Number(min) > Number(max)) {
         setMessage("O valor minímo não pode ser maior que o máximo");
         setTimeout(() => {

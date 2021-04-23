@@ -34,7 +34,7 @@ const Dashboard: React.FC = () => {
   const handleName = (sigla: string) => {
     let nome = ""
     stateIBGE?.forEach(s => {
-      if (s.sigla == sigla) {
+      if (s.sigla === sigla) {
 
         nome = s.nome
       }
