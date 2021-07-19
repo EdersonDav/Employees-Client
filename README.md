@@ -1,6 +1,6 @@
 # Fron-End Funcionários
 
->Crie, liste, atualize e exclua funcionários de sua base de dados
+>Crie, liste, atualize e exclua funcionários de sua base de dados.
 
 [![Author](https://img.shields.io/badge/author-EdersonDav-000000?style=flat-square)](https://github.com/EdersonDav)
 
